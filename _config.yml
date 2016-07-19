@@ -12,7 +12,7 @@ theme:
 
   # Header and footer text
   header_text: >
-     <p>A blog with my ideas, experiences, thoughts, feelings.</p>
+     <p>A tranquil website about my ideas, experiences, thoughts, feelings.</p>
 
      <p>一汪鱼塘，记录生活，学习点滴</p>
   header_text_feature_image:
@@ -37,7 +37,7 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "https://twitter.com/RuifanYu"
+  twitter: "RuifanYu"
   wordpress:
   youtube:
 
