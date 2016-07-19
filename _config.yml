@@ -6,7 +6,7 @@ url: "https://tiddler.github.io" # the base hostname & protocol for your site
 theme:
   # Meta
   title: Fishpond
-  avatar: avatar.png
+  avatar: avatar.jpg
   gravatar: # Email MD5 hash
   description: "A place for ideas and feelings" # used by search engines
 
@@ -27,7 +27,7 @@ theme:
   dribbble:
   facebook:
   flickr:
-  github: "https://github.com/tiddler"
+  github: "tiddler"
   google_plus:
   instagram:
   linkedin:  # Full URL
