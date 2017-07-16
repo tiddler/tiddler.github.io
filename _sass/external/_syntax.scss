@@ -16,10 +16,10 @@ $green:    #3AE25C; //  operators, other keywords
 .highlight {
     background-color: $bg-color; color: $body;
 
-    //span {
-    //    font-weight: 300;
-    //    font-family: 'Source Code Pro', serif;
-    //}
+    span {
+        font-weight: 300;
+        font-family: 'Source Code Pro', serif;
+    }
 
     .c { color: $base01; } /* Comment */
     .err { color: $body; } /* Error */

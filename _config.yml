@@ -3,21 +3,21 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://tiddler.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme_settings:
   # Meta
   title: Fishpond
-  avatar: avatar.jpg
+  avatar: avatar.png
   gravatar: # Email MD5 hash
   description: "A place for ideas and feelings" # used by search engines
 
   # Header and footer text
   header_text: >
-     <p>A tranquil website about my ideas, experiences, thoughts, feelings.</p>
+      <p>A tranquil website about my ideas, experiences, thoughts, feelings.</p>
 
-     <p>一汪鱼塘，记录生活，学习点滴</p>
+      <p>一汪鱼塘，记录生活，学习点滴</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with modified <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: false
@@ -44,6 +44,7 @@ theme:
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname: "tiddler"
+  muut_community_name: # From muut.com settings, e.g. "muttcommunityname"
   katex: true # Enable if using math markup
 
   # Localization strings
