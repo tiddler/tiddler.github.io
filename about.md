@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: about
 permalink: /about/
 feature-img: "img/uwaterloo.jpg"
 ---
