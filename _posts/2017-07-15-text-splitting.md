@@ -38,7 +38,7 @@ Right, the best solution is dynamic programming. It is quite obvious that we do 
 
 <img src="/img/post_1_text_split.jpg" alt="A toy example for demostration" width="50%" style="margin-left:25%;">
 
-if we print the cost list for "onetwo", we get
+if we print the cost list for "onetwo", we get:
 
 ```
 [('o', 8.703316786964155)]
@@ -60,7 +60,7 @@ After we finish the process, we can backtrace the path and output the sentence.
 Cost: [0, 8.703316786964155, 5.2356296640331665, 6.018389003282799, 13.838016219748196, 18.735856019699106, 12.541872955622603]
 Cut_point: [1, 2, 3, 1, 2, 3]
 ```
-We begin with the last element of `Cut_point` list, the value indicates the length of the word. Then we jump 3 characters to `e` and add a space behind it. Meanwhile, the value at `e` is `Cut_point[2] = 3`, we follow it and come the beginning and the output sentence is 'one two'
+We begin with the last element of `Cut_point` list, the value indicates the length of the word. Then we jump 3 characters to `e` and add a space behind it. Meanwhile, the value at `e` is `Cut_point[2] = 3`, we follow it and come the beginning and the output sentence is "one two".
 
 > Talk is cheap, show me the code
 
@@ -73,16 +73,18 @@ In terms of the real implement, there are something to figure out.
 
 ```python
 class TextCleaner:
-    def __init__(self, dict_path='./word-frequency.txt', word_max_length=16):
+    def __init__(self, dict_path='./word-frequency.txt', word_max_length=0):
         """
         initialize the class given a path to dictionary and maximal length of single word
         :param dict_path('./word-frequency.txt'): path to dictionary file 
-        :param word_max_length(16): the length of longest word in the document
+        :param word_max_length(0): the length of longest word in the document, if not set,
+                                   it will be the maxmium length of the word in the dictionary
         """
-        self.word_max_length = word_max_length
         try:
             with open(dict_path, 'r') as dict_file:
                 self.words = dict_file.read().split()
+                if not word_max_length:
+                    self.word_max_length = max(len(x) for x in self.words)
                 word_num = len(self.words)
                 self.word_cost = dict(
                     (word, log((idx + 1) * log(word_num)))
