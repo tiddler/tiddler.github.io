@@ -164,7 +164,8 @@ Here is a test case for the code.
 cleaner = TextCleaner(dict_path='./word-frequency.txt', word_max_length=16)
 origin_str = "They're all converging today at a Rhode Island convention centre where about three-dozen U.S. state governors are holding their annual summer meeting, with trade uncertainty looming ahead."
 no_space_str = re.sub(r'\s+', '', origin_str)
->>>"They'reallconvergingtodayataRhodeIslandconventioncentrewhereaboutthree-dozenU.S.stategovernorsareholdingtheirannualsummermeeting,withtradeuncertaintyloomingahead."
+>>>
+"They'reallconvergingtodayataRhodeIslandconventioncentrewhereaboutthree-dozenU.S.stategovernorsareholdingtheirannualsummermeeting,withtradeuncertaintyloomingahead."
 cleaner.split_sentences(no_space_str)
 >>>
 "They're all converging today at a Rhode Island convention centre where about three-dozen U.S.state governors are holding their annual summer meeting,with trade uncertainty looming ahead."
