@@ -1,6 +1,7 @@
 // Typography
 $font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-family-code: 'Consolas';
 $font-size: 1.25em;
 
 // Padding
@@ -28,3 +29,12 @@ $feature-image-size: cover; // options include "cover", "contain", "auto"
 // Header description box
 $header-desc-background-color: #005CAF;
 $header-desc-text-color: #FFF;
+
+// Blockquote colour
+$blockquote-color: #607d8b;
+$blockquote-backgroud-color: #f2f2f2;
+
+// Code Highlighter colour
+$code-hightlighter-color: #464646;
+$code-hightlighter-background-color: #dadada;
+$code-hightlighter-padding: 0.3em;
