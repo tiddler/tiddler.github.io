@@ -8,7 +8,7 @@ feature-img: "img/post_1_feature.jpg"
 > 
 > ???  ---  "What are you talking about?"
 
-What you see above is a sentence without spaces. This case is common when dealing with the Optical Character Recognition(OCR) result due to the poor scan quality and wired fonts.
+What you see above is a sentence without spaces. This case is common when dealing with the Optical Character Recognition(OCR) result due to the poor scan quality and weird fonts.
 
 This tiny script is used for adding the correct spaces between words that are mistakenly connected. For example, when the space in the sentence "thomson reuters" is lost, the sentence becomes "thomsonreuters". In order to utilize the text content, we want to recover the correct spaces between words.
 
@@ -171,7 +171,7 @@ cleaner.split_sentences(no_space_str)
 "They're all converging today at a Rhode Island convention centre where about three-dozen U.S.state governors are holding their annual summer meeting,with trade uncertainty looming ahead."
 ```
 
-Back to the beginning, if we take the wired sentence as the input:
+Back to the beginning, if we take the weird sentence as the input:
 
 ```python
 cleaner.split_sentences("OCRjustmessedupmysentence!Wheredidthespacesgo?Ireallyneedsomespaces!")

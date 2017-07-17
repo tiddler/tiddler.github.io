@@ -20,8 +20,8 @@ theme_settings:
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with modified <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
-  rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: true
+  email_address: ruifan.yu@uwaterloo.ca # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
