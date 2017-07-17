@@ -34,7 +34,7 @@ Once we set up the cost for arbitrary word, the rest job is adding spaces to min
 
 > Hmmm, Let me guess, dynamic programming ?
 
-Right, the best solution is dynamic programming. It is quite obvious that we do not need to try every possible splitting, at each possible space position, we can based on previous best split. Here, to keep simple, we assume the maximum length of word is `3`, and let the previous words are separated by our rules. Therefore, we only nned to look back 3 characters to find best split. This figure is the illustration for case "...onetwo": (the text before is omitted)
+Right, the best solution is dynamic programming. It is quite obvious that we do not need to try every possible splitting, at each possible space position, we can based on previous best split. Here, to keep it simple, we assume the maximum length of word is `3`, and let the previous words are separated by our rules. Therefore, we only nned to look back 3 characters to find best split. This figure is the illustration for case "...onetwo": (the text before is omitted)
 
 <img src="/img/post_1_text_split.jpg" alt="A toy example for demostration" width="50%" style="margin-left:25%;">
 
@@ -44,9 +44,9 @@ if we print the cost list for "onetwo", we get
 [('o', 8.703316786964155)]
 [('n', 7.810148472510853), ('on', 5.2356296640331665)]
 [('e', 7.8746869936484245), ('ne', 9.651453678290338), ('one', 6.018389003282799)]
-[('t', 7.819627216465397), ('et', 10.18483271861092), ('net', 10.534571835350045), ('onet', inf)]
-[('w', 9.228079918573927), ('tw', 12.71746701641631), ('etw', inf), ('netw', inf), ('onetw', inf)]
-[('o', 8.703316786964155), ('wo', 12.729573108775922), ('two', 6.523483952339804), ('etwo', inf), ('netwo', inf), ('onetwo', inf)]
+[('t', 7.819627216465397), ('et', 10.18483271861092), ('net', 10.534571835350045)]
+[('w', 9.228079918573927), ('tw', 12.71746701641631), ('etw', inf)]
+[('o', 8.703316786964155), ('wo', 12.729573108775922), ('two', 6.523483952339804)]
 ```
 Among these logs, we can find that the best solution is "one two", where
 
