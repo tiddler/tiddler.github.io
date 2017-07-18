@@ -34,7 +34,7 @@ Once we set up the cost for arbitrary word, the rest job is adding spaces to min
 
 > Hmmm, Let me guess, dynamic programming ?
 
-Right, the best solution is dynamic programming. It is quite obvious that we do not need to try every possible splitting, at each possible space position, we can based on previous best split. Here, to keep it simple, we assume the maximum length of word is `3`, and let the previous words are separated by our rules. Therefore, we only nned to look back 3 characters to find best split. This figure is the illustration for case "...onetwo": (the text before is omitted)
+Right, the best solution is dynamic programming. It is quite obvious that we do not need to try every possible splitting, at each possible space position, we can based on previous best split. Here, to keep it simple, we assume the maximum length of word is `3`, and let the previous words are separated by our rules. Therefore, we only need to look back 3 characters to find best split. This figure is the illustration for case "...onetwo": (the text before is omitted)
 
 <img src="/img/post_1_text_split.jpg" alt="A toy example for demostration" width="50%" style="margin-left:25%;">
 
