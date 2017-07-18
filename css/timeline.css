@@ -262,7 +262,7 @@ Main components
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
     margin-left: 0;
-    padding: 1.6em;
+    /* padding: 1.6em; */
     width: 45%;
   }
   .cd-timeline-content::before {
