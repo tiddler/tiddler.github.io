@@ -33,7 +33,7 @@ feature-img: "img/about.jpg"
 
         <div class="cd-timeline-content">
             <h2>Research Assistant, Computer Vision</h2>
-            <h2>BestImages Group, Tencent</h2>
+            <h2>YouTu Lab, Tencent</h2>
             <span class="cd-date">2015.11 - 2016.03</span>
         </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
