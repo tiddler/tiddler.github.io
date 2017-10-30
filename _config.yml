@@ -17,7 +17,7 @@ theme_settings:
       <p>一汪鱼塘，记录生活，学习点滴</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with modified <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with modified <a href="https://github.com/tiddler/tiddler.github.io">Type Theme</a>
 
   # Icons
   rss: true

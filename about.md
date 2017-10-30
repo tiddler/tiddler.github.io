@@ -7,13 +7,22 @@ feature-img: "img/about.jpg"
 <link rel="stylesheet" href="/css/timeline.css"> <!-- Resource style -->
 <script src="/js/modernizr.js"></script> <!-- Modernizr -->
 
+<div class="section">Yahaha! You found me!</div>
+
+<div id="personal">
+    <p id="intro">Welcome! My name is Ruifan Yu. I am currenly a gradute student in <strong>University of Waterloo</strong> focusing on Machine Learning and the applications of Deep Learning</p>
+
+    <p><strong>Email</strong>: ruifan.yu@uwaterloo.ca</p>
+</div>
+
+
+<div class="section">My Footstep</div>
 <section id="cd-timeline" class="cd-container">
     <div class="cd-timeline-block">
         <img class="cd-timeline-img" src="/img/uwaterloo.jpg">
-
         <div class="cd-timeline-content">
-            <h2>MMath Coop, Computer Science</h2>
-            <h2>University of Waterloo</h2>
+            <h2>Master, Computer Science</h2>
+            <p>University of Waterloo</p>
             <span class="cd-date">2016.09 - 2018 (expected)</span>
         </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
@@ -23,7 +32,7 @@ feature-img: "img/about.jpg"
 
         <div class="cd-timeline-content">
             <h2>Data Scientist Intern</h2>
-            <h2>Waterloo Lab, Thomson Reuters</h2>
+            <p>Waterloo Lab, Thomson Reuters</p>
             <span class="cd-date">2017.05 - 2017.08</span>
         </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
@@ -33,7 +42,7 @@ feature-img: "img/about.jpg"
 
         <div class="cd-timeline-content">
             <h2>Research Assistant, Computer Vision</h2>
-            <h2>YouTu Lab, Tencent</h2>
+            <p>YouTu Lab, Tencent</p>
             <span class="cd-date">2015.11 - 2016.03</span>
         </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
@@ -43,7 +52,7 @@ feature-img: "img/about.jpg"
 
         <div class="cd-timeline-content">
             <h2>Machine Learning Developer</h2>
-            <h2>Mogujie Inc.</h2>
+            <p>Mogujie Inc.</p>
             <span class="cd-date">2015.06 - 2015.09</span>
         </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
@@ -53,7 +62,7 @@ feature-img: "img/about.jpg"
 
         <div class="cd-timeline-content">
             <h2>Exchange Program, Computer Science</h2>
-            <h2>Lund University</h2>
+            <p>Lund University</p>
             <span class="cd-date">2014.09 - 2015.01</span>
         </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
@@ -63,7 +72,7 @@ feature-img: "img/about.jpg"
 
         <div class="cd-timeline-content">
             <h2>Undergraduate, Cognitive Science</h2>
-            <h2>Xiamen University</h2>
+            <p>Xiamen University</p>
             <span class="cd-date">2011.09 - 2015.07</span>
         </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->

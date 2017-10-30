@@ -433,3 +433,27 @@ Main components
     transform: translateX(0);
   }
 }
+
+
+.section {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+
+#personal {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+#intro {
+  max-width: 60%;
+  margin: auto;
+}
