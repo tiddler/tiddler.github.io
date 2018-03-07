@@ -11,8 +11,8 @@ feature-img: "img/about.jpg"
 
 <div id="personal">
     <p id="intro">Welcome! My name is Ruifan Yu. I am currenly a gradute student in <strong>University of Waterloo</strong> focusing on Machine Learning and the applications of Deep Learning</p>
-
     <p><strong>Email</strong>: ruifan.yu AT uwaterloo.ca</p>
+    <p>if interested, you can find my resume <a href="misc/ruifan.pdf">here</a></p>
 </div>
 
 
