@@ -1,0 +1,109 @@
+---
+layout: home-page
+title: About
+permalink: /about/
+---
+<link rel="stylesheet" href="/assets/css/timeline.css"> 
+<link rel="stylesheet" href="/assets/css/yahaha.css">
+
+<div class="small-wrapper">
+  <div class="about-container">
+    <section class="about-header">
+      <div class="author-image-container">
+        <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="{{site.author}}">
+      </div>
+      <h3 class="speech-bubble"><strong class="white-text">Yahaha! You found me!</strong></h3>
+      <img id="yahaha" src="{{site.baseurl}}/assets/img/about/yahaha.png" width="150px">
+      <p class="subtitle">{{site.about-author}}</p>
+      
+    </section>
+    <section class="about-body">
+      <ul class="contact-list">
+      {% if site.website %}
+        <li class="website"><a href="https://{{site.website}}/about" target="_blank"><i class="fa fa-globe"></i></a></li>
+      {% endif %}
+
+      {% if site.github %}
+        <li class="github"><a href="https://github.com/{{site.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+      {% endif %}
+
+      {% if site.linkedin %}
+        <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+      {% endif %}
+      </ul>
+    </section> <!-- End About Body-->
+    <section id="cd-timeline" class="cd-container">
+      <div class="cd-timeline-block">
+        <img class="cd-timeline-img" src="/assets/img/about/uwaterloo.jpg">
+        <div class="cd-timeline-content">
+          <h2>Master, Computer Science</h2>
+          <p>University of Waterloo</p>
+          <span class="cd-date">2016.09 - 2018 (expected)</span>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
+    
+      <div class="cd-timeline-block">
+        <img class="cd-timeline-img" src="/assets/img/about/thomsonreuters.jpg">
+    
+        <div class="cd-timeline-content">
+          <h2>Data Scientist Intern</h2>
+          <p>Waterloo Lab, Thomson Reuters</p>
+          <span class="cd-date">2017.05 - 2017.08</span>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
+    
+      <div class="cd-timeline-block">
+        <img class="cd-timeline-img" src="/assets/img/about/youtu.jpg">
+    
+        <div class="cd-timeline-content">
+          <h2>Research Assistant, Computer Vision</h2>
+          <p>YouTu Lab, Tencent</p>
+          <span class="cd-date">2015.11 - 2016.03</span>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
+    
+      <div class="cd-timeline-block">
+        <img class="cd-timeline-img" src="/assets/img/about/mogujie.jpg">
+    
+        <div class="cd-timeline-content">
+          <h2>Machine Learning Developer</h2>
+          <p>Mogujie Inc.</p>
+          <span class="cd-date">2015.06 - 2015.09</span>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
+    
+      <div class="cd-timeline-block">
+        <img class="cd-timeline-img" src="/assets/img/about/lund.jpg">
+    
+        <div class="cd-timeline-content">
+          <h2>Exchange Program, Computer Science</h2>
+          <p>Lund University</p>
+          <span class="cd-date">2014.09 - 2015.01</span>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
+    
+      <div class="cd-timeline-block">
+        <img class="cd-timeline-img" src="/assets/img/about/xmu.jpg">
+    
+        <div class="cd-timeline-content">
+          <h2>Undergraduate, Cognitive Science</h2>
+          <p>Xiamen University</p>
+          <span class="cd-date">2011.09 - 2015.07</span>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
+    </section>
+    <!-- cd-timeline -->
+  </div> <!-- End About Container -->
+</div> <!-- End Small Wrapper -->

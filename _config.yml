@@ -1,75 +1,40 @@
-# SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://tiddler.github.io" # the base hostname & protocol for your site
+title: Fishpond
+email: y.refine@gmail.com
+description: personal blog
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tiddler.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# THEME-SPECIFIC CONFIGURATION
-theme_settings:
-  # Meta
-  title: Fishpond
-  avatar: avatar.jpg
-  gravatar: # Email MD5 hash
-  description: "A place for ideas and feelings" # used by search engines
+# Author settings
+author: Ruifan Yu # add your name
+author-pic: avatar.jpg
+about-author: Welcome! My name is Ruifan Yu. I am currenly a gradute student in University of Waterloo, exploring the fabulous ocean of Computer Science.
+# Contact links
+website: tiddler.github.io # Add your website, do not add http://
+linkedin: ruifan-yu # Add your Linkedin handle
+github: tiddler # Add your Github handle
 
-  # Header and footer text
-  header_text: >
-      <p>A tranquil website about my ideas, experiences, thoughts, feelings.</p>
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
 
-      <p>一汪鱼塘，记录生活，学习点滴</p>
-  header_text_feature_image:
-  footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with modified <a href="https://github.com/tiddler/tiddler.github.io">Type Theme</a>
+# Disqus
+discus_identifier: tiddler # Add your discus identifier
 
-  # Icons
-  rss: false
-  email_address: ruifan.yu@uwaterloo.ca # Full email address, e.g. "sam@example.com"
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  github: "tiddler"
-  google_plus:
-  instagram:
-  linkedin: https://www.linkedin.com/in/ruifan-yu/
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  # Full URL
-  steam:
-  tumblr:
-  twitter: "RuifanYu"
-  wordpress:
-  youtube:
+# Tracker
+analytics: UA-115676663-1 # Google Analytics
 
-  # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname: "tiddler"
-  muut_community_name: # From muut.com settings, e.g. "muttcommunityname"
-  katex: true # Enable if using math markup
+# Paginate
+paginate: 6
+paginate_path: /page:num/
 
-  # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next: "Next"
-  str_prev: "Prev"
-  str_continue_reading: "Dive into the water"
-
-  # Colours, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
-
-  # Post navigation
-  post_navigation: true
-
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
-
-# BUILD SETTINGS
+# Build settings
 markdown: kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: :compressed
-gems: [jekyll-paginate]
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
