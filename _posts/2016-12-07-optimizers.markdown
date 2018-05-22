@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comparison of optimizers in Neural Networks
+title: Comparison of Optimizers in Neural Networks
 date: 2016-12-07 19:17:55 +0300
 description: A brief comparison among current popular optimizers in neural networks
 img: 2016-12-07-optimizers/post.jpg # Add image post (optional)
