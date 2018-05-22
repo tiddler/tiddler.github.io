@@ -4,7 +4,7 @@ title: A survey on cutting-plane methods for feasibility problem
 date: 2017-08-10 21:32:20 +0300
 description: A brief survey on current cutting-plane methods for solving feasibility problem
 img: 2017-08-10-cutting-plane/cut.png # Add image post (optional)
-tags: [Blog, optimization]
+tags: [Blog, Optimization]
 author: # Add name author (optional)
 ---
 
